@@ -7,7 +7,7 @@
         content="DyEG-SLAM: End-to-End Gaussian SLAM in Dynamic Scenes">
   <meta name="keywords" content="DyEG-SLAM: End-to-End Gaussian SLAM in Dynamic Scenes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WildGS-SLAM</title>
+  <title>DyEG-SLAM</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="./static/css/bootstrap-4.4.1.css">
@@ -126,105 +126,61 @@
 <body>
 
 
-<!--<section class="hero">-->
-<!--  <div class="hero-body">-->
-<!--    <div class="container is-max-desktop">-->
-<!--      <div class="columns is-centered">-->
-<!--        <div class="column has-text-centered">-->
-<!--          &lt;!&ndash; <h1 class="title is-1 publication-title"><img src="static/images/72.png" width="70"></h1> &ndash;&gt;-->
-<!--          <h1 class="title is-1 publication-title">WildGS-SLAM</h1>-->
-<!--          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">Monocular Gaussian Splatting SLAM in Dynamic Environments</h2>-->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+
+          <h1 class="title is-1 publication-title">DyEG-SLAM</h1>
+          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">
+            End-to-End Gaussian SLAM in Dynamic Scenes
+          </h2>
 
 <!--          <div class="column is-full_width">-->
 <!--            <h2 class="title is-4">CVPR 2025</h2>-->
 <!--          </div>-->
-<!--          <div class="is-size-5 publication-authors">-->
-<!--            <span class="author-block">-->
-<!--              <a href="https://jianhao-zheng.github.io/">Jianhao Zheng</a><sup>1*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--              <span class="author-block">-->
-<!--                <a href="https://zzh2000.github.io">Zihan Zhu</a><sup>2*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--              <span class="author-block">-->
-<!--              <a href="https://openreview.net/profile?id=~Valentin_Bieri1">Valentin Bieri</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--            </span>-->
-<!--            <span class="author-block">-->
-<!--              <a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a><sup>2,3</sup>&nbsp;&nbsp;-->
-<!--              &lt;!&ndash; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ndash;&gt;-->
-<!--            </span>-->
-<!--            &lt;!&ndash; <br> &ndash;&gt;-->
-<!--            <span class="author-block">-->
-<!--              <a href="https://pengsongyou.github.io">Songyou Peng</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--            </span>-->
-<!--            <span class="author-block">-->
-<!--              &lt;!&ndash; <a href="https://zhpcui.github.io/">Zhaopeng Cui</a><sup>2<span>&#8224;</span> </sup>&nbsp;&nbsp;&nbsp;&nbsp; &ndash;&gt;-->
-<!--              <a href="https://ir0.github.io/">Iro Armeni</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--            </span>-->
 
-<!--          </div>-->
-<!--          <div class="column is-full_width">-->
-<!--            <h2 class="is-size-6">* Equal Contribution</h2>-->
-<!--            &lt;!&ndash; <h2 class="is-size-6">(* equal contribution)  (<span>&#8224;</span> corresponding author)</h2> &ndash;&gt;-->
-<!--          </div>-->
-<!--          <div class="is-size-5 publication-authors">-->
-<!--            <span class="author-block"><sup>1</sup>Stanford University</span>&nbsp;&nbsp;&nbsp;&nbsp;-->
-<!--            <span class="author-block"><sup>2</sup>ETH Zürich</span>&nbsp;&nbsp;-->
-<!--            <span class="author-block"><sup>3</sup>Microsoft</span>&nbsp;&nbsp;-->
-<!--          </div>-->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Tianhao Xie</span>
+          </div>
 
-<!--          <div class="column has-text-centered">-->
-<!--            <div class="publication-links">-->
-<!--              &lt;!&ndash; PDF Link. &ndash;&gt;-->
-<!--              <span class="link-block">-->
-<!--                <a href="https://arxiv.org/abs/2504.03886"-->
-<!--                   class="external-link button is-normal is-rounded is-dark">-->
-<!--                  <span class="icon">-->
-<!--                      <i class="fas fa-file-pdf"></i>-->
-<!--                  </span>-->
-<!--                  <span>Paper</span>-->
-<!--                </a>-->
-<!--              </span>-->
-<!--              -->
-<!--              &lt;!&ndash; Video Link. &ndash;&gt;-->
-<!--              <span class="link-block">-->
-<!--                <a href="https://www.youtube.com/watch?v=xXuolzFvddQ&t=11s"-->
-<!--                   class="external-link button is-normal is-rounded is-dark">-->
-<!--                  <span class="icon">-->
-<!--                      <i class="fab fa-youtube"></i>-->
-<!--                  </span>-->
-<!--                  <span>Video</span>-->
-<!--                </a>-->
-<!--              </span>-->
-<!--              &lt;!&ndash; Poster Link. &ndash;&gt;-->
-<!--              &lt;!&ndash; <span class="link-block">-->
-<!--                <a href="media/nice-slam/poster_nice-slam.pdf"-->
-<!--                   class="external-link button is-normal is-rounded is-dark">-->
-<!--                  <span class="icon">-->
-<!--                      <i class="fas fa-palette"></i>-->
-<!--                  </span>-->
-<!--                  <span>Poster</span>-->
-<!--                  </a>-->
-<!--              </span> &ndash;&gt;-->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Your Institution</span>
+          </div>
 
-<!--              &lt;!&ndash; Code Link. &ndash;&gt;-->
-<!--              <span class="link-block">-->
-<!--                <a href="https://github.com/GradientSpaces/WildGS-SLAM.git"-->
-<!--                   class="external-link button is-normal is-rounded is-dark disabled">-->
-<!--                  <span class="icon">-->
-<!--                      <i class="fab fa-github"></i>-->
-<!--                  </span>-->
-<!--                  <span>Code</span>-->
-<!--                  </a>-->
-<!--              </span>-->
+          <div class="column has-text-centered">
+            <div class="publication-links">
 
-<!--  -->
+              <span class="link-block">
+                <a href="javascript:void(0);"
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
 
-<!--            </div>-->
+              <span class="link-block">
+                <a href="javascript:void(0);"
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
 
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!--<section class="hero teaser" style="margin-top: -3rem;">-->
 <!--  <div class="container is-max-desktop">-->
@@ -488,8 +444,8 @@
 
 
         <div style="height: 50px;"></div> 
-        <h3 class="title is-4">Bonn RGB-D Dynamic Dataset (crowd)</h3>
-
+        <h3 class="title is-4">Bonn RGB-D Dynamic Dataset</h3>
+        <h3 class="title is-5">ballon</h3>
         <p style="margin-top: -60px">
           <div class="container is-max-desktop">
             <div class="hero-body">
@@ -502,25 +458,66 @@
             </div> 
           </div> 
         </p>
-        
         <!-- <br> -->
-    
-        <p style="margin-top: -60px">
-          <div style="height: 50px;"></div> 
-          <h3 class="title is-4">TUM RGB-D Dataset (rgbd_dataset_freiburg3_walking_rpy)</h3>
-        </p>
-    
+        <h3 class="title is-5">movebox</h3>
         <p style="margin-top: -60px">
           <div class="container is-max-desktop">
             <div class="hero-body">
               <div class="columns is-centered has-text-centered">
                 <div class="column is-full-width">
-                  <video class="video" width="50%" id="xyalias8" loop playsinline autoplay muted src="resources/results/tum_walking_half.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
-                  <canvas height=0 class="videoMerge" id="xyalias8Merge"></canvas>
+                  <video class="video" width="50%" id="move1" loop playsinline autoplay muted src="static/videos/bonn_movebox.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+                  <canvas height=0 class="videoMerge" id="move"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+
+        <h3 class="title is-5">person</h3>
+        <p style="margin-top: -60px">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-full-width">
+                  <video class="video" width="50%" id="person1" loop playsinline autoplay muted src="static/videos/bonn_person.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+                  <canvas height=0 class="videoMerge" id="person2"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+
+        <p style="margin-top: -60px">
+          <div style="height: 50px;"></div> 
+          <h3 class="title is-4">TUM RGB-D Dataset</h3>
+        </p>
+
+        <h3 class="title is-5">rgbd_dataset_freiburg3_walking_half</h3>
+        <p style="margin-top: -60px">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-full-width">
+                  <video class="video" width="50%" id="wh" loop playsinline autoplay muted src="static/videos/TUM_wh.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+                  <canvas height=0 class="videoMerge" id="wh1"></canvas>
                 </div> 
               </div> 
             </div> 
           </div> 
+        </p>
+
+        <h3 class="title is-5">rgbd_dataset_freiburg1_desk</h3>
+        <p style="margin-top: -60px">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-full-width">
+                  <video class="video" width="50%" id="xyalias8" loop playsinline autoplay muted src="static/videos/TUM_desk.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+                  <canvas height=0 class="videoMerge" id="xyalias8Merge"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
         </p>
 
       </div>
@@ -531,32 +528,32 @@
 
 
 
-<p style="margin-top: -60px">
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{Zheng2025WildGS,
-      author={Zheng, Jianhao and Zhu, Zihan and Bieri, Valentin and Pollefeys, Marc and Peng, Songyou and Armeni Iro},
-      title     = {WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments},
-      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year      = {2025}
-    }</code></pre>
-  </div>
-</section>
-</p>
+<!--<p style="margin-top: -60px">-->
+<!--<section class="section" id="BibTeX">-->
+<!--  <div class="container is-max-desktop content">-->
+<!--    <h2 class="title">BibTeX</h2>-->
+<!--    <pre><code>@inproceedings{Zheng2025WildGS,-->
+<!--      author={Zheng, Jianhao and Zhu, Zihan and Bieri, Valentin and Pollefeys, Marc and Peng, Songyou and Armeni Iro},-->
+<!--      title     = {WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments},-->
+<!--      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},-->
+<!--      year      = {2025}-->
+<!--    }</code></pre>-->
+<!--  </div>-->
+<!--</section>-->
+<!--</p>-->
 
-<section class="section" id="Acknowledgements">
-  <div class="container is-max-desktop content">
-    <h2 class="title">Acknowledgements</h2>
-     We thank Sayan Deb Sarkar, Tao Sun, Ata Celen, Liyuan Zhu, Emily Steiner, Jikai Jin, Yiming Zhao, 
-     Matt VanCleave, Tess Ruby Horowitz Buckley, Stanley Wang for their help in Wild-SLAM data collection.
-     We thank Aleesa Pitchamarn Alexander for granting permission to release the data collected from the 
-     <a href="https://museum.stanford.edu/exhibitions/spirit-house">Spirit House</a> exhibition. 
-     We also thank Aleesa Pitchamarn Alexander, Robert M. and Ruth L. Halperin for curating the exhibition, 
-     as well as all the participating artists, particularly Dominique Fung, Stephanie H. Shih, and Tammy Nguyen whose 
-     art works are prominently captured in the video data.
-  </div>
-</section>
+<!--<section class="section" id="Acknowledgements">-->
+<!--  <div class="container is-max-desktop content">-->
+<!--    <h2 class="title">Acknowledgements</h2>-->
+<!--     We thank Sayan Deb Sarkar, Tao Sun, Ata Celen, Liyuan Zhu, Emily Steiner, Jikai Jin, Yiming Zhao, -->
+<!--     Matt VanCleave, Tess Ruby Horowitz Buckley, Stanley Wang for their help in Wild-SLAM data collection.-->
+<!--     We thank Aleesa Pitchamarn Alexander for granting permission to release the data collected from the -->
+<!--     <a href="https://museum.stanford.edu/exhibitions/spirit-house">Spirit House</a> exhibition. -->
+<!--     We also thank Aleesa Pitchamarn Alexander, Robert M. and Ruth L. Halperin for curating the exhibition, -->
+<!--     as well as all the participating artists, particularly Dominique Fung, Stephanie H. Shih, and Tammy Nguyen whose -->
+<!--     art works are prominently captured in the video data.-->
+<!--  </div>-->
+<!--</section>-->
 
 <!-- <section class="section" id="References">
   <div class="container is-max-desktop content">
